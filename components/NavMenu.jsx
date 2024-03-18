@@ -47,7 +47,7 @@ const NAvMenu = () => {
           </PopoverTrigger>
           <PopoverContent
             align="start"
-            className="w-[10rem] bg-sky-700 text-white border-2 border-[yellow]"
+            className="w-[10rem] bg-sky-700 text-white border-2 border-[rgb(215,181,30)]"
           >
             <div className="grid gap-3 text-center">
               <Button variant="ghost" onClick={handleHome}>

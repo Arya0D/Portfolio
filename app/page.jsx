@@ -1,3 +1,4 @@
+import Contact from "@/components/contact";
 import Icon from "@/components/icons";
 import Project from "@/components/project";
 import TypeWriter from "@/components/typeWriter";
@@ -52,14 +53,12 @@ const page = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
             repellat atque rerum perferendis amet. Omnis inventore maxime labore
             dicta corporis aliquid quibusdam corrupti amet dignissimos
-            aspernatur. Esse quibusdam rem illo distinctio maiores possimus
-            perferendis numquam labore mollitia exercitationem, itaque facilis
-            quo suscipit rerum culpa blanditiis architecto! Pariatur voluptates
-            harum aperiam.
+            aspernatur.
           </p>
+          <Contact>My Contact</Contact>
         </div>
         <div className="hidden md:block">
-          <Image src="/img/aboutR.png" width={400} height={400} alt="" />
+          <Image src="/img/aboutR.png" width={500} height={500} alt="" />
         </div>
       </div>
 
