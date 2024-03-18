@@ -1,5 +1,6 @@
 "use client";
 
+import Contact from "./contact";
 import { Button } from "./ui/button";
 import {
   Popover,
@@ -66,7 +67,7 @@ const NAvMenu = () => {
         </Popover>
       </div>
 
-      <div className="hidden md:flex text-[rgb(215,181,29)]">
+      <div className="hidden md:flex items-center gap-4 text-[rgb(215,181,29)]">
         <Button variant="ghost" size="lg" onClick={handleHome}>
           Home
         </Button>
@@ -79,6 +80,7 @@ const NAvMenu = () => {
         <Button variant="ghost" size="lg" onClick={handleProject}>
           Project
         </Button>
+        <Contact>Contact</Contact>
       </div>
     </>
   );

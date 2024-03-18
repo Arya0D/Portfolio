@@ -7,18 +7,15 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 
-import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
 import Tab from "./tab";
+import SendMail from "./sendMail";
 
-const Contact = () => {
+const Contact = ({ children }) => {
   return (
     <>
       <Dialog>
-        <DialogTrigger>
-          <Avatar>
-            <AvatarImage src="https://avatars.githubusercontent.com/u/120310980?v=4" />
-            <AvatarFallback>AR</AvatarFallback>
-          </Avatar>
+        <DialogTrigger className="w-[130px] p-2 text-sky-900 bg-[rgb(215,181,30)] rounded-md text-xl font-bold">
+          {children}
         </DialogTrigger>
         <DialogContent className="bg-sky-800  border-none">
           <DialogHeader>
@@ -28,14 +25,15 @@ const Contact = () => {
           </DialogHeader>
           <Tab
             icon={"/img/github.png"}
-            socialMedia={"Github"}
+            socialMedia={"Arya0D"}
             href="https://github.com/Arya0D"
           />
           <Tab
             icon={"/img/instagram.png"}
-            socialMedia={"Instagram"}
+            socialMedia={"@arya.dirham"}
             href="https://www.instagram.com/"
           />
+          <SendMail />
         </DialogContent>
       </Dialog>
     </>
