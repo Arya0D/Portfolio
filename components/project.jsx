@@ -14,7 +14,7 @@ const Project = () => {
         <CarouselContent>
           <CarouselItem>
             <ProjectCard title="no project">
-              <div className="flex justify-center items-center h-full bg-slate-300 text-3xl">
+              <div className="flex justify-center items-center h-full bg-slate-300 text-3xl ">
                 <h1>No Project Yet!!!</h1>
               </div>
             </ProjectCard>

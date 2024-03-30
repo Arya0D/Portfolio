@@ -24,12 +24,6 @@ const NAvMenu = () => {
       home.scrollIntoView({ behavior: "smooth" });
     }
   };
-  const handleSkill = () => {
-    const skill = document.getElementById("Skill");
-    if (skill) {
-      skill.scrollIntoView({ behavior: "smooth" });
-    }
-  };
   const handleAbout = () => {
     const about = document.getElementById("About");
 
@@ -56,9 +50,6 @@ const NAvMenu = () => {
               <Button variant="ghost" onClick={handleAbout}>
                 About Me
               </Button>
-              <Button variant="ghost" onClick={handleSkill}>
-                Skill
-              </Button>
               <Button variant="ghost" onClick={handleProject}>
                 Project
               </Button>
@@ -73,9 +64,6 @@ const NAvMenu = () => {
         </Button>
         <Button variant="ghost" size="lg" onClick={handleAbout}>
           About
-        </Button>
-        <Button variant="ghost" size="lg" onClick={handleSkill}>
-          Skill
         </Button>
         <Button variant="ghost" size="lg" onClick={handleProject}>
           Project

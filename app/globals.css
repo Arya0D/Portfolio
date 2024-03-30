@@ -8,8 +8,18 @@ body{
   padding-top: 5.5rem;
 } */
 
+html{
+  height: 100%;
+}
 body{
   background-color: rgb(21, 128, 194);
+  min-height: 100vh;
+  min-width: 100%;
+
+}
+
+:root{
+  --first-color:rgb(215,181,30);
 }
  
 @layer base {
