@@ -8,7 +8,7 @@ const ProjectPage = () => {
             <div className="grid gap-8" >
                 <h1 className="text-3xl md:text-5xl font-bold bg-[--first-color] w-fit p-2">Project</h1>
             <div className="bg-sky-700 shadow-xl rounded-md p-4">
-                <p className="text-lg text-white">Technology i use: </p>
+                <p className="text-lg text-white">Technology i use:</p>
                 <div  className="grid grid-cols-3 md:grid-cols-6">
                 <Icon info={"React.js"} color={"rgb(24, 119, 242)"}>
             <FaReact/>
