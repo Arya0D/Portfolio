@@ -14,7 +14,7 @@ const About = () => {
                         <div>Programmer &</div>
                         <div>Tech enthusiast</div>
                     </div>
-                    <p className="text-lg md:text-xl mb-6">Hello My Name is Arya Dirham Wijaya Kusmah i'am a programmer. Studied at Politeknik Negeri Cilacap, informatics engineering study program.</p>
+                    <p className="text-lg md:text-xl mb-6">Hello My Name is Arya Dirham Wijaya Kusmah i&apos;m a programmer. Studied at Politeknik Negeri Cilacap, informatics engineering study program.</p>
                     <Contact>
                         My Contact
                     </Contact>
