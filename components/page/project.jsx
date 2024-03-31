@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { SiExpress, SiNextdotjs, SiNodedotjs, SiTailwindcss, SiTypescript } from "react-icons/si";
 const ProjectPage = () => {
     return (  
-        <div className="grid justify-center items-center h-[100vh] pt-[6rem] p-8" id="Project">
+        <div className="grid justify-center items-center h-[100vh] pt-[6rem] p-8 " id="Project">
             <div className="grid gap-8" >
                 <h1 className="text-3xl md:text-5xl font-bold bg-[--first-color] w-fit p-2">Project</h1>
             <div className="bg-sky-700 shadow-xl rounded-md p-4">

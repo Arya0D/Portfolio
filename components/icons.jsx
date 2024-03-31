@@ -11,7 +11,7 @@ const Icon = ({ children, info, color }) => {
       <Tooltip>
         <TooltipTrigger
           className={
-            "text-6xl md:text-[8rem] bg-slate-300 w-fit p-2 m-3 rounded-lg hover:bg-[rgb(215,181,30)]"
+            "text-6xl md:text-[8rem] bg-slate-300 w-fit p-2 m-3 rounded-lg"
           }
           style={{ color: `${color}` }}
         >
