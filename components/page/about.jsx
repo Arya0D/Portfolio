@@ -10,6 +10,7 @@ const About = () => {
                     <div className="flex justify-center md:hidden">
                         <Image src={'/img/aboutR.png'} alt={'About Me'} width={230} height={230}/>
                     </div>
+                    <div className="bg-sky-700 shadow-md p-4">
                     <div className="text-3xl md:text-6xl font-bold">
                         <div>Programmer &</div>
                         <div>Tech enthusiast</div>
@@ -19,6 +20,7 @@ const About = () => {
                         My Contact
                     </Contact>
                 </div>
+                    </div>
                 <div className="hidden md:block">
                     <Image src={'/img/aboutR.png'} alt={'About Me'} width={480} height={480}/>
                 </div>

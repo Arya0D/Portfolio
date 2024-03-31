@@ -4,7 +4,8 @@ import { Typewriter } from "react-simple-typewriter";
 const TypeWriter = () => {
   return (
     <>
-      <div className="text-4xl md:text-6xl font-bold">
+      <div className="text-xl md:text-3xl font-bold">
+      <span>👋 </span>
         <Typewriter
           words={[
             "Hello",

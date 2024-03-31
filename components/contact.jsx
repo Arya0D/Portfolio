@@ -14,7 +14,7 @@ const Contact = ({ children }) => {
   return (
     <>
       <Dialog>
-        <DialogTrigger className="w-[130px] p-2 text-black bg-[rgb(215,181,30)] rounded-md text-xl font-bold">
+        <DialogTrigger className="w-fit p-2 text-black bg-[rgb(215,181,30)] rounded-md text-xl font-bold">
           {children}
         </DialogTrigger>
         <DialogContent className="bg-sky-800  border-none">
@@ -33,7 +33,6 @@ const Contact = ({ children }) => {
             socialMedia={"@arya.dirham"}
             href="https://www.instagram.com/"
           />
-          <SendMail />
         </DialogContent>
       </Dialog>
     </>
