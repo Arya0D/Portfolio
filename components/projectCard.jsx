@@ -6,6 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Button } from "./ui/button";
 
 const ProjectCard = ({ children, title }) => {
   return (
@@ -15,6 +16,7 @@ const ProjectCard = ({ children, title }) => {
           <CardTitle>{title}</CardTitle>
         </CardHeader>
         <CardContent className="w-full h-[500px]">{children}</CardContent>
+     
       </Card>
     </>
   );
